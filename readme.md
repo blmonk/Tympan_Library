@@ -1,6 +1,19 @@
 Tympan Library
 ===========================
 
+> **Fork notes:**  
+> This fork adds an implementation of the prediction error method of adaptive feedback cancellation 
+> (PEMAFC). See [`PEMAFC_report.pdf`](PEMAFC_report.pdf) for more info.
+
+The library files added are:
+
+- [`src/AudioFeedbackCancelPEMAFC_F32.cpp`](src/AudioFeedbackCancelPEMAFC_F32.cpp)
+- [`src/AudioFeedbackCancelPEMAFC_F32.h`](src/AudioFeedbackCancelPEMAFC_F32.h)
+
+The example is located here:
+
+- [`examples/09-FeedbackCancellation/AudioPassThru_FeedbackPEMAFC/`](examples/09-FeedbackCancellation/AudioPassThru_FeedbackPEMAFC/)
+
 ![](https://travis-ci.org/Tympan/Tympan_Library.svg?branch=master)
 
 **Purpose**: This library allows you to program your own audio processing algorithms for the Tympan!  It owes a big debt to the [Teensy Audio Library](http://www.pjrc.com/teensy/td_libs_Audio.html) and all of its contributors.
